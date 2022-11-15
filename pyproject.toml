@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "lambdatest"
+version = "0.1.0"
+description = ""
+authors = ["Ryan HO <ryan.ho@fdmgroup.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyleniumio = "^1.17.2"
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.0.0"
+flake8 = "^5.0.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
